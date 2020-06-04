@@ -1,8 +1,5 @@
 package commonMethods;
 
-
-
-
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -26,6 +23,7 @@ public class WrapperMethods {
 		//ChromeOptions options = new ChromeOptions();
 		//options.addArguments("start-maximized");
 		//WebDriver driver = new ChromeDriver(options);
+		//new
 		
 		driver = new ChromeDriver();
 		//driver.manage().window().maximize();
