@@ -18,6 +18,11 @@ WebDriver driver;
 			wm.chrome_browser("https://opensource-demo.orangehrmlive.com/");
 		}
 	
+	public void gitdemo() {
+		
+	}
+	
+	
 	
 	@Test(priority=1)
 	public void enterbyid() {
