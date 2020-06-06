@@ -1,6 +1,5 @@
 package com.TestNG;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DependsOnGroups {
@@ -20,6 +19,4 @@ public class DependsOnGroups {
 	public void logout(){
 		System.out.println("logout");
 		}
-
-
 }

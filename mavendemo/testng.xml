@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-  
-  <groups>
-    <run>
-      <include name="smoketesting"/>
-      <include name="retesting"/>
-      <exclude name="sanitytesting"/>
-    </run>
-  </groups>
-  
-       <classes>
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="com.TestNG.DependsUponMethod"/>
       <class name="com.TestNG.DependsOnGroups"/>
-    </classes>
+      <class name="com.TestNG.ParallelExecution"/>
+      <class name="com.TestNG.ParallelExecution1"/>
+      <class name="com.TestNG.Prioritytestcase"/>
+       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
