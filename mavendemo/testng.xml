@@ -8,6 +8,7 @@
       <class name="com.TestNG.ParallelExecution"/>
       <class name="com.TestNG.ParallelExecution1"/>
       <class name="com.TestNG.Prioritytestcase"/>
+      
        </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
