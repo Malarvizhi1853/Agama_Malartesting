@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="1" name="Test">
+  <test thread-count="6" name="Test">
     <classes>
       <class name="com.TestNG.DependsUponMethod"/>
       <class name="com.TestNG.DependsOnGroups"/>
       <class name="com.TestNG.ParallelExecution"/>
       <class name="com.TestNG.ParallelExecution1"/>
       <class name="com.TestNG.Prioritytestcase"/>
-      
+      <class name="com.TestNG.NewTest"/>
        </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
