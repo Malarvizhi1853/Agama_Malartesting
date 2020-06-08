@@ -5,10 +5,10 @@
     <classes>
       <class name="com.TestNG.DependsUponMethod"/>
       <class name="com.TestNG.DependsOnGroups"/>
+      <class name="com.TestNG.NewTest"/>
       <class name="com.TestNG.ParallelExecution"/>
       <class name="com.TestNG.ParallelExecution1"/>
       <class name="com.TestNG.Prioritytestcase"/>
-      <class name="com.TestNG.NewTest"/>
-       </classes>
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
