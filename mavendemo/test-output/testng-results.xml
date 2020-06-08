@@ -1,150 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="17" passed="16">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9306" started-at="2020-06-08T16:12:08Z" finished-at="2020-06-08T16:12:17Z">
+  <suite name="Default suite" duration-ms="7508" started-at="2020-06-08T19:21:24Z" finished-at="2020-06-08T19:21:31Z">
     <groups>
-      <group name="regressiontesting">
-        <method signature="DependsOnGroups.logout()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="logout" class="com.TestNG.DependsOnGroups"/>
-        <method signature="DependsOnGroups.search()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="search" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- regressiontesting -->
-      <group name="sanitytesting">
-        <method signature="DependsOnGroups.login()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="login" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- sanitytesting -->
-      <group name="retesting">
-        <method signature="DependsOnGroups.logout()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="logout" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- retesting -->
-      <group name="smoketesting">
-        <method signature="DependsOnGroups.login()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="login" class="com.TestNG.DependsOnGroups"/>
-        <method signature="DependsOnGroups.search()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="search" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- smoketesting -->
     </groups>
-    <test name="Test" duration-ms="9306" started-at="2020-06-08T16:12:08Z" finished-at="2020-06-08T16:12:17Z">
-      <class name="com.TestNG.Prioritytestcase">
-        <test-method status="PASS" signature="testcase3()[pri:1, instance:com.TestNG.Prioritytestcase@1b26f7b2]" name="testcase3" duration-ms="2" started-at="2020-06-08T16:12:16Z" finished-at="2020-06-08T16:12:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-        <test-method status="PASS" signature="testcase1()[pri:2, instance:com.TestNG.Prioritytestcase@1b26f7b2]" name="testcase1" duration-ms="2" started-at="2020-06-08T16:12:17Z" description="firsttestcase" finished-at="2020-06-08T16:12:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="testcase2()[pri:3, instance:com.TestNG.Prioritytestcase@1b26f7b2]" name="testcase2" duration-ms="2" started-at="2020-06-08T16:12:17Z" finished-at="2020-06-08T16:12:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-      </class> <!-- com.TestNG.Prioritytestcase -->
-      <class name="com.TestNG.ParallelExecution">
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.TestNG.ParallelExecution@11758f2a]" name="testcase1" duration-ms="2" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.TestNG.ParallelExecution@11758f2a]" name="testcase2" duration-ms="2" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.TestNG.ParallelExecution@11758f2a]" name="testcase3" duration-ms="2" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-      </class> <!-- com.TestNG.ParallelExecution -->
-      <class name="com.TestNG.NewTest">
-        <test-method status="PASS" signature="chrome_browser()[pri:0, instance:com.TestNG.NewTest@612fc6eb]" name="chrome_browser" is-config="true" duration-ms="5489" started-at="2020-06-08T16:12:08Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chrome_browser -->
-        <test-method status="PASS" signature="enterbyid()[pri:1, instance:com.TestNG.NewTest@612fc6eb]" name="enterbyid" duration-ms="1962" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterbyid -->
-        <test-method status="PASS" signature="admin()[pri:2, instance:com.TestNG.NewTest@612fc6eb]" name="admin" duration-ms="1747" started-at="2020-06-08T16:12:16Z" finished-at="2020-06-08T16:12:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- admin -->
-      </class> <!-- com.TestNG.NewTest -->
-      <class name="com.TestNG.DependsUponMethod">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.TestNG.DependsUponMethod@1060b431]" name="login" duration-ms="6" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
+    <test name="Default test" duration-ms="7508" started-at="2020-06-08T19:21:24Z" finished-at="2020-06-08T19:21:31Z">
+      <class name="com.testcase.FrameHandling">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcase.FrameHandling@262b2c86]" name="login" duration-ms="7476" started-at="2020-06-08T19:21:24Z" finished-at="2020-06-08T19:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="search()[pri:0, instance:com.TestNG.DependsUponMethod@1060b431]" name="search" duration-ms="5" started-at="2020-06-08T16:12:14Z" depends-on-methods="com.TestNG.DependsUponMethod.login" finished-at="2020-06-08T16:12:14Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [abc] but found [XYZ]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [abc] but found [XYZ]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.TestNG.DependsUponMethod.search(DependsUponMethod.java:16)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.TestNG.DependsUponMethod@1060b431]" name="logout" duration-ms="1" started-at="2020-06-08T16:12:14Z" depends-on-methods="com.TestNG.DependsUponMethod.search" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- com.TestNG.DependsUponMethod -->
-      <class name="com.TestNG.ParallelExecution1">
-        <test-method status="PASS" signature="testcase4()[pri:0, instance:com.TestNG.ParallelExecution1@e720b71]" name="testcase4" duration-ms="2" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase4 -->
-        <test-method status="PASS" signature="testcase5()[pri:0, instance:com.TestNG.ParallelExecution1@e720b71]" name="testcase5" duration-ms="1" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase5 -->
-        <test-method status="PASS" signature="testcase6()[pri:0, instance:com.TestNG.ParallelExecution1@e720b71]" name="testcase6" duration-ms="1" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase6 -->
-      </class> <!-- com.TestNG.ParallelExecution1 -->
-      <class name="com.TestNG.DependsOnGroups">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="login" duration-ms="2" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="logout" duration-ms="2" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="search()[pri:0, instance:com.TestNG.DependsOnGroups@612679d6]" name="search" duration-ms="1" started-at="2020-06-08T16:12:14Z" finished-at="2020-06-08T16:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-      </class> <!-- com.TestNG.DependsOnGroups -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.testcase.FrameHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
