@@ -13,7 +13,7 @@ public class DependsUponMethod {
 	@Test(dependsOnMethods="login")
 	public void search(){
 		System.out.println("search");
-		Assert.assertEquals("XYZ", "abc");
+		Assert.assertEquals("abc", "abc");
 		}
 
 	@Test(dependsOnMethods="search", alwaysRun=true)

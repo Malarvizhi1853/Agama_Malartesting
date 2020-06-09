@@ -13,7 +13,7 @@ public class DependsOnGroups {
 	public void search(){
 		System.out.println("search");
 		System.out.println("some");
-		//Assert.assertEquals("XYZ", "abc");
+		//Assert.assertEquals("XYZ", "XYZ");
 		}
 	
 

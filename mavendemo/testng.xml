@@ -4,6 +4,17 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.TestNG.DependsUponMethod"/>
-        </classes>
+      <class name="com.TestNG.NewTest"/>
+      <class name="com.TestNG.ParallelExecution1"/>
+      <class name="com.testcase.FrameHandling"/>
+      <class name="com.testcase.ScrollDown"/>
+      <class name="com.testcase.MouseHandling"/>
+      <class name="com.TestNG.ParallelExecution"/>
+      <class name="com.testcase.KeyboardHandling"/>
+      <class name="com.TestNG.DependsOnGroups"/>
+      <class name="com.TestNG.Prioritytestcase"/>
+      <class name="com.testcase.AlertHandling"/>
+      <class name="com.testcase.DatePicker"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

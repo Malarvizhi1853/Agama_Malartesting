@@ -3,12 +3,26 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.TestNG.DependsUponMethod">
+      <class name="com.testcase.KeyboardHandling">
         <methods>
           <include name="login"/>
-          <include name="search"/>
         </methods>
-      </class> <!-- com.TestNG.DependsUponMethod -->
+      </class> <!-- com.testcase.KeyboardHandling -->
+      <class name="com.testcase.MouseHandling">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testcase.MouseHandling -->
+      <class name="com.testcase.DatePicker">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testcase.DatePicker -->
+      <class name="com.testcase.ScrollDown">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testcase.ScrollDown -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
