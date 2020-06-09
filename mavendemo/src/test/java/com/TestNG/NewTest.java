@@ -14,7 +14,8 @@ WebDriver driver;
 	@BeforeTest
 	  public void chrome_browser() {
 			wm.chrome_browser("https://opensource-demo.orangehrmlive.com/");
-		}
+
+			 		}
 	
 	public void gitdemo() {
 		
@@ -32,17 +33,18 @@ WebDriver driver;
 	}
   
 	@Test(priority=2)
-	public void admin()
+	public void admin() throws InterruptedException
 	{
 	
 		//using xpath  with contains for ADMIN 
 		wm.clickbyxpath("//*[@id=\'menu_admin_viewAdminModule\']");
-
+		Thread.sleep(1000);
 		//using xpath for UserMangament under admin
 		wm.clickbyxpath("//*[@id=\'menu_admin_UserManagement\']");
 
 		//using xpath for username under Usermanagement in ADMIN
 		wm.enterbyid("searchSystemUser_userName", "thomas.fleming");
+
 		
 		
 		//click on the search button to search a record
