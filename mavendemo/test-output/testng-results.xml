@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9843" started-at="2020-06-09T01:22:29Z" finished-at="2020-06-09T01:22:38Z">
+  <suite name="Default suite" duration-ms="5617" started-at="2020-06-12T06:19:38Z" finished-at="2020-06-12T06:19:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9843" started-at="2020-06-09T01:22:29Z" finished-at="2020-06-09T01:22:38Z">
-      <class name="com.TestNG.NewTest">
-        <test-method status="PASS" signature="chrome_browser()[pri:0, instance:com.TestNG.NewTest@13c27452]" name="chrome_browser" is-config="true" duration-ms="5569" started-at="2020-06-09T01:22:29Z" finished-at="2020-06-09T01:22:34Z">
+    <test name="Default test" duration-ms="5617" started-at="2020-06-12T06:19:38Z" finished-at="2020-06-12T06:19:44Z">
+      <class name="com.testcase.DatePicker">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcase.DatePicker@462d5aee]" name="login" duration-ms="5601" started-at="2020-06-12T06:19:39Z" finished-at="2020-06-12T06:19:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chrome_browser -->
-        <test-method status="PASS" signature="enterbyid()[pri:1, instance:com.TestNG.NewTest@13c27452]" name="enterbyid" duration-ms="2129" started-at="2020-06-09T01:22:34Z" finished-at="2020-06-09T01:22:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterbyid -->
-        <test-method status="PASS" signature="admin()[pri:2, instance:com.TestNG.NewTest@13c27452]" name="admin" duration-ms="2127" started-at="2020-06-09T01:22:36Z" finished-at="2020-06-09T01:22:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- admin -->
-      </class> <!-- com.TestNG.NewTest -->
+        </test-method> <!-- login -->
+      </class> <!-- com.testcase.DatePicker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
