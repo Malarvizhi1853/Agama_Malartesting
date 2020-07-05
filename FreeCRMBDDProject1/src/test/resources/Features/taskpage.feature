@@ -18,5 +18,5 @@ Then take Screenshot
 Then close the browser
 
 Examples:
-|title|due date|type|priority|
-|CRM Title for Demo|07/08/2020 22:30|Complaint|high|
+|title|due date|description|completion|type|priority|
+|CRM Title for Demo|07/08/2020 22:30|all good|done|Complaint|High|

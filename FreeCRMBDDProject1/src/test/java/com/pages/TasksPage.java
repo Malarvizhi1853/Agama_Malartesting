@@ -33,7 +33,7 @@ public class TasksPage{
     @FindBy(name = "type")
     WebElement Type;
 
-    @FindBy(name = "priority")
+    @FindBy(name="priority")
     WebElement Priority;
     
     @FindBy(xpath = "//*[@id=\"main-nav\"]/a[6]/span")
@@ -45,9 +45,13 @@ public class TasksPage{
     @FindBy(xpath = "//*[@id=\"dashboard-toolbar\"]/div[2]/div/button[2]")
     WebElement save;
     
+    @FindBy(xpath = "/html/body/div[1]/div/div[2]/div[2]/div/div[2]/form/div[8]/div[1]/div/div/input")
+    WebElement Completion;
+    
     public void Clicktask(){
 		ClickTask.click();
-			
+		
+		
 	}
 	public void Clicknewbutton(){
 		ClickNew.click();
@@ -66,16 +70,22 @@ public class TasksPage{
         Title.sendKeys(title);
     }
     
-    public void Assignedto(){
-		Select selectText=new Select(AssignedTo);
-	     selectText.selectByVisibleText("Malarvizhi Anbazhagan");
-	}
+    /*      public void Assignedto(){
+    	AssignedTo.click();
+    	WebElement assignedToDropdown = driver.findElement(By.xpath(".//*[@class='ui fluid selection dropdown']/div/div[@role='option']/span[contains(text(),'\" + Malarvizhi Anbazhagan+ \"')]"));
+        assignedToDropdown.click();
+        //driver.findElement(By.xpath("//*[@id=\"ui\"]/div/div[2]/div[2]/div/div[2]/form/div[2]/div[1]/div/div/div[2]/div/span")).click();
+  	AssignedTo.click();
+        WebElement assignedToDropdown = driver.findElement(By.xpath("//*[@id=\"ui\"]/div/div[2]/div[2]/div/div[2]/form/div[2]/div[1]/div/div"));
+        assignedToDropdown.click();*/
+ 	
 
-    public void setDueDate(String date)
+    public void setDueDate(String date) 
     {
-        Duedate.click();
-        driver.findElement(By.xpath("//*[@id='ui']/div/div[2]/div[2]/div/div[2]/form/div[3]/div[1]/div/div[2]/div[2]/div/div/button[2]")).click();
+    	 this.Duedate.click();
+    	 Duedate.sendKeys(date);
     }
+    
     
     public void setCloseDate(String date)
     {
@@ -83,15 +93,21 @@ public class TasksPage{
         driver.findElement(By.xpath("//*[@id=\"ui\"]/div/div[2]/div[2]/div/div[2]/form/div[5]/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[4]")).click();
                     }
     
-     public void Priority()
+     public void Priority(String priority)
     {
-		Select selectText=new Select(Priority);
-	     selectText.selectByVisibleText("High");
+    	 Priority.click();
+         WebElement priorityDropdown = driver.findElement(By.xpath(".//*[@name='priority']/div/div[@role='option']/span[contains(text(),'" + priority + "')]"));
+         priorityDropdown.click();
 	}
 
     public void enterDescription(String description)
     {
         Description.sendKeys(description);
+    }
+    
+    public void enterCompletion(String completion)
+    {
+        Completion.sendKeys(completion);
     }
 
     public void selectType(String type)

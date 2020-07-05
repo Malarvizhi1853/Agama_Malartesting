@@ -32,6 +32,7 @@ public class TasksStepDefinition extends Library{
 	public void user_clicks_on_login_button() {
 		login= new LoginPage(driver);
 		login.clickLogin();
+		
 	}
 
 	@Then("^click navigate to task page$")
@@ -39,6 +40,7 @@ public class TasksStepDefinition extends Library{
 
 		Tasks= new TasksPage(driver);
 		Tasks.Clicktask();
+		
 	}
 
 	@Then("^click add new task$")
@@ -46,17 +48,24 @@ public class TasksStepDefinition extends Library{
 		Tasks= new TasksPage(driver);
 		Tasks.Clicknewbutton();
 	}
-
-	@Then("^enter details \"([^\"]*)\" and \"([^\"]*)\"$")
-	public void enter_details_and(String arg1, String arg2) {
+	
+	@Then("^include details \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void include_details_and(String arg1, String arg2) {
 		Tasks.enterTitle(arg1);
-		Tasks.enterDescription(arg2);
+		Tasks.setDueDate(arg2);
+	    }
+
+	@Then("^enter \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void enter_and(String arg1, String arg2) {
+	    Tasks.enterDescription(arg1);
+	    //Tasks.enterCompletion(arg2);
 	    
 	}
 		
 	@Then("^add \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void add_and(String arg1, String arg2) {
 		Tasks.selectType(arg1);
+		Tasks.Priority(arg2);
 	
 		
 	}
